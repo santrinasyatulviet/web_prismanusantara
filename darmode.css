@@ -1,0 +1,9 @@
+body {
+    background: rgb(4, 4, 4);
+}
+h1 {
+    color: white;
+}
+li {
+    list-style: none;
+}

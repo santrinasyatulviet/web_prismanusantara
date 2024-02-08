@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    animation: bg 4s ;
+
+}
+@keyframes bg {
+    1% {
+        background-color: aqua;
+    }
+    100% {
+        background-color: black;
+    }
+}
+h1 {
+    color: aqua;
+}
+li {
+    list-style: none;
+    margin-left: 15%;
+}
+.offcanvas-body {
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+}
+.a {
+    height: 75px;
+    width: 75px;
+    border-radius:  50%;
+    background-color: rgb(249, 6, 6);
+    margin-left: 55px;
+    margin-top: 5px;
+    animation: dalemm 6s;
+    
+}
+
+.b {
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+    border-radius:  0% 90% 0% 70%;
+    background-color:  rgb(2, 19, 25);
+    box-shadow: rgb(246, 3, 3)  20px -2px 30px, rgb(246, 3, 3) -30px 9px 20px;
+    animation: luarr 6s;
+}
+@keyframes luarr {
+    1%{
+        border-radius: 50%;
+        background-color: whitesmoke;
+        box-shadow: none;
+    }
+    100%{
+        border-radius:  0% 90% 0% 70%;
+        /* border-radius: 40% 80% 40% 80%; */
+        background-color:  rgb(2, 19, 25);
+        box-shadow: rgb(246, 3, 3)  20px -2px 30px, rgb(246, 3, 3) -30px 9px 20px;
+        
+    }
+    
+}
+@keyframes dalemm {
+    1%{
+        border-radius: 50%;
+        background-color: black;
+    }
+    100%{
+        border-radius:  50%;
+        background-color: rgb(249, 6, 6);
+        
+    }
+    
+}
+.c {
+    height: 75px;
+    width: 75px;
+    border-radius:  50%;
+    background-color: rgb(249, 6, 6);
+    margin-left: 55px;
+    margin-top: 5px;
+    animation: dalemm 6s;
+    
+    
+}
+
+.d {
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+    border-radius:  90% 0% 70% 0%;
+    background-color:  rgb(2, 19, 25);
+    box-shadow: rgb(246, 3, 3)  20px -2px 30px, rgb(246, 3, 3) -30px 9px 20px;
+    animation: luar 6s;
+}
+@keyframes luar {
+    1%{
+        border-radius: 50%;
+        background-color: whitesmoke;
+        box-shadow: none;
+    }
+    100%{
+        border-radius:  90% 0% 70% 0%;
+        background-color:  rgb(2, 19, 25);
+        box-shadow: rgb(246, 3, 3)  20px -2px 30px, rgb(246, 3, 3) -30px 9px 20px;
+        
+    }
+    
+}
+@keyframes dalem {
+    1%{
+        border-radius: 50%;
+        background-color: black;
+    }
+    100%{
+        border-radius:  50%;
+        background-color: rgb(249, 6, 6);
+        
+    }
+    
+}
